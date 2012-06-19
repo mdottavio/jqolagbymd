@@ -1,0 +1,52 @@
+.prefix-gallery{
+	border: 1px solid #CFCFCF;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+	overflow: hidden;
+	position: relative;
+}
+.prefix-gallery-wrapper{
+	position: relative;
+}
+.prefix-gallery-content{ position: absolute; }
+.prefix-gallery-content ul { list-style: none; margin: 0px; padding: 0px; }
+.prefix-gallery-content ul li { text-align: center; float: left; }
+
+
+.prefix-controls{
+	position: relative;
+}
+.ctrareas{
+	float: left;
+	/*
+	height: 100%;
+	position: absolute;
+	width: 50%;
+	*/
+}
+.prefix-btnprev{ float: left; margin-left: 12px; }
+.prefix-btnnext{ float: right; margin-right: 12px; }
+
+.prefix-btncover{
+	cursor: pointer;
+    background-image: url("../images/btnbg.png");
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+    display: block;
+    height: 41px;
+    text-align: center;
+    width: 41px;
+}
+.prefix-btnlinks {
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+    display: block;
+    height: 35px;
+    left: 3px;
+    position: relative;
+    top: 3px;
+    width: 35px;
+}
